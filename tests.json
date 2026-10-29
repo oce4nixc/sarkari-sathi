@@ -1,0 +1,26 @@
+[
+  {"q": "Who is eligible for PM-KISAN?", "scheme": "pm kisan", "any_of": ["landholder", "farmer"]},
+  {"q": "Are income tax payers eligible for PM-KISAN?", "scheme": "pm kisan", "any_of": ["not", "excluded"]},
+  {"q": "who is elgible for the scholarship?", "scheme": "scholarship", "any_of": ["income of less than 4.5 lakh/per annum"]},
+  {"q": "इस योजना के लिए कौन पात्र है?", "scheme": "pm kisan", "any_of": ["किसान", "पात्र"]},
+  {"q": "What is the capital of France?", "scheme": "none", "any_of": ["could not find", "not find", "not in"]},
+  {"q": "what is rate of scholarship?", "scheme": "scholarship", "any_of": ["Rs.12,000/-per annum"]},
+  {"q": "what is the portal for scholarship", "scheme": "scholarship", "any_of": ["National Scholarships Portal (NSP)"]},
+  {"q": "what is the maximum limit of applications?", "scheme": "scholarship", "any_of": ["82,000"]},
+  {"q": "what is the age criteria?", "scheme": "scholarship", "any_of": ["18-25", "students enrolled in college"]},
+  {"q": "what is the seat division between girls and boys?", "scheme": "scholarship", "any_of": ["  50% "]},
+  {"q": "what is PM kisan for?", "scheme": "pm kisan", "any_of": ["helping the financial needs of all landholding farmers"]},
+  {"q": "how much will the farmers get through this?", "scheme": "pm kisan", "any_of": ["6000/per annum"]},
+  {"q": "can Doctors, Engineers, Lawyers apply for the scheme?", "scheme": "pm kisan", "any_of": ["no", "not eligibile"]},
+  {"q": "what do i need before going to the hospital", "scheme": "ayushman yojana", "any_of": ["ayushman e card", "card for ayushman yojana"]},
+  {"q": "how much can i get from ayushman yojana", "scheme": "ayushman yojana", "any_of": ["25 lakh/per annum"]},
+  {"q": "is the rules different for people living in rajasthan?", "scheme": "ayushman yojana", "any_of": ["yes.", "the rules are different."]},
+  {"q": "पीएम-किसान योजना का लाभ किसानों को कैसे मिलता है?", "scheme": "pm kisan", "any_of": ["बैंक", "DBT", "Direct Benefit"]},
+  {"q": "क्या आयकर देने वाले व्यक्ति पीएम-किसान के लिए पात्र हैं?", "scheme": "pm kisan", "any_of": ["नहीं", "पात्र नहीं", "बाहर"]},
+
+  {"q": "इस छात्रवृत्ति के लिए कौन आवेदन कर सकता है?", "scheme": "scholarship", "any_of": ["REPLACE with a word from your PDF"]},
+  {"q": "छात्रवृत्ति के लिए आवेदन करते समय कौन से दस्तावेज़ चाहिए?", "scheme": "scholarship", "any_of": ["REPLACE with a word from your PDF"]},
+
+  {"q": "आयुष्मान योजना में एक परिवार को कितने रुपये तक का स्वास्थ्य कवर मिलता है?", "scheme": "ayushman yojana", "any_of": ["REPLACE with the amount from your PDF"]},
+  {"q": "इस योजना में इलाज किन अस्पतालों में मिलता है?", "scheme": "ayushman yojana", "any_of": ["REPLACE with a word from your PDF"]}
+]
