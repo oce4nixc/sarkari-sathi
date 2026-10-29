@@ -3,13 +3,24 @@ Day 2, Hours 1-3: Streamlit chat UI with a live "Agent steps" panel.
 
 Run:  streamlit run app.py
 """
+import os
+import subprocess
+import sys
 import uuid
 
 import streamlit as st
 
-from agent import agent, to_text
-
 st.set_page_config(page_title="Sarkari Saathi", page_icon="🇮🇳")
+
+# Fresh deploy (e.g. Hugging Face): build the vector DB once at startup.
+if not os.path.exists("chroma_db"):
+    with st.spinner("First start: preparing the scheme documents (about a minute)..."):
+        subprocess.run([sys.executable, "ingest_all.py"], check=True)
+
+from agent import agent, to_text  # must come after the DB exists
+
+
+
 st.title("🇮🇳 Sarkari Saathi")
 st.caption("Find government schemes you qualify for, in Hindi or English.")
 
