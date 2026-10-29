@@ -1,0 +1,55 @@
+ 1. retrieval=OK   answer=OK   Who is eligible for PM-KISAN?
+ 2. retrieval=OK   answer=OK   Are income tax payers eligible for PM-KISAN?
+ 3. retrieval=OK   answer=MISS  who is elgible for the scholarship?
+ 4. retrieval=OK   answer=OK   इस योजना के लिए कौन पात्र है?
+ 5. retrieval=OK   answer=OK   What is the capital of France?
+ 6. retrieval=OK   answer=MISS  what is rate of scholarship?
+ 7. retrieval=OK   answer=OK   what is the portal for scholarship
+ 8. retrieval=OK   answer=OK   what is the maximum limit of applications?
+ 9. retrieval=OK   answer=MISS  what is the age criteria?
+10. retrieval=OK   answer=MISS  what is the seat division between girls and boys?
+11. retrieval=OK   answer=MISS  what is PM kisan for?
+12. retrieval=OK   answer=MISS  how much will the farmers get through this?
+13. retrieval=OK   answer=MISS  can Doctors, Engineers, Lawyers apply for the scheme?
+14. retrieval=OK   answer=MISS  what do i need before going to the hospital
+15. retrieval=OK   answer=MISS  how much can i get from ayushman yojana
+16. retrieval=OK   answer=MISS  is the rules different for people living in rajasthan?
+17. retrieval=OK   answer=OK   पीएम-किसान योजना का लाभ किसानों को कैसे मिलता है?
+18. retrieval=OK   answer=OK   क्या आयकर देने वाले व्यक्ति पीएम-किसान के लिए पात्र हैं
+19. retrieval=OK   answer=MISS  इस छात्रवृत्ति के लिए कौन आवेदन कर सकता है?
+20. retrieval=OK   answer=MISS  छात्रवृत्ति के लिए आवेदन करते समय कौन से दस्तावेज़ चाहि
+21. retrieval=OK   answer=MISS  आयुष्मान योजना में एक परिवार को कितने रुपये तक का स्वास
+22. retrieval=OK   answer=MISS  इस योजना में इलाज किन अस्पतालों में मिलता है?
+
+Retrieval accuracy: 22/22 = 100%
+Answer accuracy:    8/22 = 36%
+
+Failures to investigate:
+ - [answer] who is elgible for the scholarship?
+     -> Based on the provided context, the eligibility criteria for the scholarship under the Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) Central Sect
+ - [answer] what is rate of scholarship?
+     -> Based on the provided context, the rate of scholarship (from the financial year 2022-23) is as follows:  * **Graduation level:** Rs. 12,000/- per annu
+ - [answer] what is the age criteria?
+     -> Based on the provided context, the age criteria is found under the "Vay Vandan 70+ Yojana" for both the Rajasthan-specific Mukhyamantri Ayushman Arogy
+ - [answer] what is the seat division between girls and boys?
+     -> Based on the provided context, 50% of the scholarships are earmarked for girls [scholarship.pdf p.1]. The context does not provide a specific percenta
+ - [answer] what is PM kisan for?
+     -> Under the Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) scheme, the objective is to supplement the financial needs of all landholding farmers' families
+ - [answer] how much will the farmers get through this?
+     -> Under the Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) scheme, eligible farmers get an amount of Rs. 6000/- per year, which is released in three insta
+ - [answer] can Doctors, Engineers, Lawyers apply for the scheme?
+     -> Under the PM-KISAN scheme, professionals like Doctors, Engineers, Lawyers, Chartered Accountants, and Architects who are registered with professional 
+ - [answer] what do i need before going to the hospital
+     -> Based on the provided context, the requirements before going to the hospital depend on the state or category:  * **For Rajasthan:** You need a **Jan A
+ - [answer] how much can i get from ayushman yojana
+     -> Based on the provided documents:  * Under the **Pradhan Mantri Jan Arogya Yojana**, the benefit amount is **₹5 lakh** [ayushman yojana.pdf p.1]. * Und
+ - [answer] is the rules different for people living in rajasthan?
+     -> Yes, the rules and eligibility criteria are different for people living in Rajasthan compared to other states [ayushman yojana.pdf p.2].   According t
+ - [answer] इस छात्रवृत्ति के लिए कौन आवेदन कर सकता है?
+     -> प्रदान की गई जानकारी के अनुसार, इस छात्रवृत्ति (PRADHAN MANTRI UCHCHATAR SHIKSHA PROTSAHAN (PM-USP) YOJANA के अंतर्गत सेंट्रल सेक्टर स्कीम ऑफ़ स्कॉलरशि
+ - [answer] छात्रवृत्ति के लिए आवेदन करते समय कौन से दस्तावेज़ चाहिए?
+     -> प्रदत्त संदर्भ के अनुसार, छात्रवृत्ति के लिए आवेदन करते समय केवल "आय प्रमाण पत्र (Income certificate)" की आवश्यकता होती है, जो कि केवल नए (fresh) आवेद
+ - [answer] आयुष्मान योजना में एक परिवार को कितने रुपये तक का स्वास्थ्य कवर मिलता है?
+     -> राजस्थान में माँ योजना के पात्र परिवारों को प्रति परिवार प्रति वर्ष ₹25 लाख तक का स्वास्थ्य बीमा कवर उपलब्ध कराया जाता है [ayushman yojana.pdf p.6]।
+ - [answer] इस योजना में इलाज किन अस्पतालों में मिलता है?
+     -> इस योजना के तहत आप किसी भी आयुष्मान योजना से सूचीबद्ध अस्पताल (या एम्स जोधपुर की चिकित्सा सामाजिक कल्याण इकाई) से जानकारी प्राप्त कर सकते हैं [ayushma
